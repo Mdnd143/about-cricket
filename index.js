@@ -36,7 +36,7 @@ function play(question,answer)
   var userAnswer=readlineSync.question(question);
   if (userAnswer===answer)
   {  
-  console.log("awesome! You know me in this");
+  console.log("awesome! You have good knowledge about cricket.");
   score=score+1;
   console.log("Your score is "+score);
   }
@@ -44,7 +44,7 @@ function play(question,answer)
   {
     score=score-1;
     console.log("Your score is "+score);
-    console.log("what? you dont know this thing about me?");
+    console.log("what? you dont know this? ahh!");
   }
 }
 
