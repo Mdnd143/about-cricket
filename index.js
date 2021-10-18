@@ -4,19 +4,19 @@ var usrNme=readlineSync.question('Enter Your Name  ');
 console.log("Welcome  "+usrNme+ "! here i will ask some question about cricket. let see how well do you know about cricket?");
 var questions=[
   {
-    question:"how many players do playfrom one team ? ",
+    question:"how many players do play from one team ? ",
     answer:"11"
   },
   {
-    question:"how many umpires are there in a single match?",
+    question:"how many umpires are there in a single match? ",
     answer:"3"
   },
   {
-    question:"how many times does indian team won ODI world cup?",
+    question:"how many times does indian team won ODI world cup? ",
     answer:"2"
   },
   {
-    question:"how many times does india team won t20 world cup?",
+    question:"how many times does india team won t20 world cup? ",
     answer:"1"
   },
   {
